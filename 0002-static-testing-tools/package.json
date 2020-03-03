@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore ."
+  },
   "keywords": [],
   "author": "",
   "license": "MIT",
