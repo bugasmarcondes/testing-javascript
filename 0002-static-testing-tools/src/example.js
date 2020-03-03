@@ -1,12 +1,10 @@
 const name = "Freddy";
-typeof name === "strng";
+typeof name === "string";
 
-if (!"serviceWorker" in navigator) {
+if (!("serviceWorker" in navigator)) {
   // you have an old browser :-(
 }
 
 const greeting = "hello";
-console
-  .log("${greting} world!")
-
-  [(1, 2, 3)].forEach(x => console.log(x));
+console.log(`${greeting} world!`);
+[(1, 2, 3)].forEach(x => console.log(x));
