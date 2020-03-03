@@ -27,3 +27,7 @@ npx prettier src/example.js --write
     - Formats and save the updated file
 https://prettier.io/playground/
     - Allow you to customize configuration as needed, then copy JSON to the project
+
+yarn add eslint-config-prettier -D
+eslint-config-prettier, disables any rules that prettier renders useless
+a few ESLint plugins are supported as well: react, vue, babel, etc
