@@ -31,3 +31,16 @@ https://prettier.io/playground/
 yarn add eslint-config-prettier -D
 eslint-config-prettier, disables any rules that prettier renders useless
 a few ESLint plugins are supported as well: react, vue, babel, etc
+
+- Install and configure Babel
+    <pre><code>"@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",</code></pre>
+- Install Typescript
+    yarn add typescript -D
+    npx tsc
+    "noEmit": true, // do not compile my files, let babel do it
+- Installed and configured Babel
+    - Enabled Babel to parse Typescript
+        - "@babel/preset-typescript": "^7.7.2",
+        - Insert configuration into .babelrc
