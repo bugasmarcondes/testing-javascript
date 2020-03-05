@@ -60,3 +60,8 @@ a few ESLint plugins are supported as well: react, vue, babel, etc
     - yarn add husky -D
     - ls -a .git/hooks to check which hooks exists
     - create .huskyrc and bind to pre-commit
+
+- Auto format all files and validate relevant files in a precommit script with lint-staged
+    - yarn add lint-staged -D
+    - create .lintstagedrc
+    - modify .huskyrc
