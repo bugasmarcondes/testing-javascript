@@ -54,3 +54,8 @@ a few ESLint plugins are supported as well: react, vue, babel, etc
             - usefull for typescript rules, good practice to have it installed and configured
         "eslint-config-prettier/@typescript-eslint"
             - disable rules that conflict between typescript and prettier
+
+- Validate code in a pre-commit git hook with Husky
+    - yarn add husky -D
+    - ls -a .git/hooks to check which hooks exists
+    - create .huskyrc and bind to pre-commit
