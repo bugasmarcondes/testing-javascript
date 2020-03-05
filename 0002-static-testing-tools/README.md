@@ -44,3 +44,13 @@ a few ESLint plugins are supported as well: react, vue, babel, etc
     - Enabled Babel to parse Typescript
         - "@babel/preset-typescript": "^7.7.2",
         - Insert configuration into .babelrc
+- Install Typescript and Eslint plugins
+    - yarn add @typescript-eslint/eslint-plugin -D
+    - yarn add @typescript-eslint/parser -D
+    - Configure extends in .eslintrc
+        "plugin:@typescript-eslint/eslint-recommended",
+            - disable rules typescript render unnecessary
+        "plugin:@typescript-eslint/recommended",
+            - usefull for typescript rules, good practice to have it installed and configured
+        "eslint-config-prettier/@typescript-eslint"
+            - disable rules that conflict between typescript and prettier
