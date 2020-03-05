@@ -65,3 +65,6 @@ a few ESLint plugins are supported as well: react, vue, babel, etc
     - yarn add lint-staged -D
     - create .lintstagedrc
     - modify .huskyrc
+
+- Run multiple npm scripts in parallel with npm-run-all
+    - yarn add npm-run-all -D
