@@ -1,3 +1,8 @@
+const path = require("path");
+
 module.exports = {
-  projects: ['./other/jest.config.js', './other/jest.no-framework.config.js']
-}
+  projects: [
+    path.join(__dirname, "./other/jest.config.js"),
+    path.join(__dirname, "./other/jest.no-framework.config.js")
+  ]
+};

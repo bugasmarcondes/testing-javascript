@@ -17,6 +17,7 @@ Order of material:
 
 1.  `monkey-patching.js` (no jest version)
 2.  `mock-fn.js`
+    - npx jest "src/__tests__/mock-fn.js"
 3.  `spy.js`
 4.  `inline-module-mock.js`
 5.  `external-mock-module.js`
