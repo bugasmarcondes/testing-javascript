@@ -18,9 +18,16 @@ Order of material:
 1.  `monkey-patching.js` (no jest version)
 2.  `mock-fn.js`
     - npx jest "src/__tests__/mock-fn.js"
+    - npx jest "src/no-framework/mock-fn.js"
 3.  `spy.js`
+    - npx jest "src/__tests__/spy.js"
+    - npx jest "src/no-framework/spy.js"
 4.  `inline-module-mock.js`
+    - npx jest "src/__tests__/inline-module-mock.js"
+    - npx jest "src/no-framework/inline-module-mock.js"
 5.  `external-mock-module.js`
+    - npx jest "src/__tests__/external-mock-module.js"
+    - npx jest "src/no-framework/external-mock-module.js"
 
 The files are intended to test the `thumb-war.js` module and mock the `utils`
 module.
